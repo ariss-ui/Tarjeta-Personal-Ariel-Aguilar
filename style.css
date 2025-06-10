@@ -17,10 +17,30 @@ body {
   padding: 1rem;
 }
 
+img {
+  display: block;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+button {
+  padding: 0.5rem;
+  border: none;
+  background-color: #0D0C0D;
+  box-shadow: 0 2px 2px 0 #8000b242;
+}
+
 .card {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+
   background-color: blueviolet;
+  border-radius: 1rem;
+  overflow: hidden;
+  max-width: 1200px;
 }
 
 .header {
@@ -28,13 +48,35 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: cadetblue;
+  padding: 1rem;
+}
+
+.brand {
+  max-width: 130px;
+}
+
+.icon {
+  padding: .5rem;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 3px 3px 0 #8000b242 ;
 }
 
 .main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: cornflowerblue;
+  padding: 1rem;
+  gap: 1rem;
+  background-color: #D7D3D9;
+}
+
+.main div:first-child {
+  background-color: crimson;
+}
+
+.main div:last-child {
+  background-color: darkseagreen;
 }
 
 .footer {
