@@ -17,12 +17,26 @@
   <div class="card">
     <header class="header">
       <div class="brand">
-        <img src="./assets/marca-grafica.svg" alt="logo ars"/>
+        <img id="logo" src="./assets/marca-grafica.svg" alt="logo ars"/>
       </div>
 
       <button class="icon" id="toggle-button">
-        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <!-- Light Mode -->
+        <svg class="theme-icon" id="icon-moon"  width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M12.7432 7.50953C12.6428 8.59671 12.2347 9.63279 11.5669 10.4965C10.8991 11.3603 9.99911 12.016 8.97223 12.3869C7.94536 12.7578 6.83408 12.8286 5.76844 12.591C4.7028 12.3534 3.72687 11.8172 2.95485 11.0452C2.18282 10.2731 1.64663 9.29721 1.40902 8.23157C1.17141 7.16593 1.2422 6.05465 1.61311 5.02778C1.98403 4.0009 2.63972 3.1009 3.50347 2.43308C4.36722 1.76526 5.4033 1.35724 6.49048 1.25677C5.85397 2.1179 5.54768 3.17887 5.62731 4.24674C5.70695 5.3146 6.16722 6.31841 6.92441 7.0756C7.6816 7.83279 8.68541 8.29306 9.75327 8.3727C10.8211 8.45233 11.8821 8.14604 12.7432 7.50953Z" stroke="inherit" stroke-width="1.27738" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+
+        <!-- Dark Mode -->
+        <svg  class="theme-icon" id="icon-sun" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 17C14.7614 17 17 14.7614 17 12C17 9.23858 14.7614 7 12 7C9.23858 7 7 9.23858 7 12C7 14.7614 9.23858 17 12 17Z" stroke="inherit" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M12 1V3" stroke="inherit" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M12 21V23" stroke="inherit" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M4.22 4.22L5.64 5.64" stroke="inherit" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M18.36 18.36L19.78 19.78" stroke="inherit" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M1 12H3" stroke="inherit" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M21 12H23" stroke="inherit" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M4.22 19.78L5.64 18.36" stroke="inherit" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M18.36 5.64L19.78 4.22" stroke="inherit" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
       </button>
     </header>
