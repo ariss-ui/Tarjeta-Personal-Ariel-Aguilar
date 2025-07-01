@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Personal Card - Ariel Aguilar</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./style.css">
 
   <!-- Google Fonts Start -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,7 +19,8 @@
       <div class="brand">
         <img src="./assets/marca-grafica.svg" alt="logo ars"/>
       </div>
-      <button class="icon">
+
+      <button class="icon" id="toggle-button">
         <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M12.7432 7.50953C12.6428 8.59671 12.2347 9.63279 11.5669 10.4965C10.8991 11.3603 9.99911 12.016 8.97223 12.3869C7.94536 12.7578 6.83408 12.8286 5.76844 12.591C4.7028 12.3534 3.72687 11.8172 2.95485 11.0452C2.18282 10.2731 1.64663 9.29721 1.40902 8.23157C1.17141 7.16593 1.2422 6.05465 1.61311 5.02778C1.98403 4.0009 2.63972 3.1009 3.50347 2.43308C4.36722 1.76526 5.4033 1.35724 6.49048 1.25677C5.85397 2.1179 5.54768 3.17887 5.62731 4.24674C5.70695 5.3146 6.16722 6.31841 6.92441 7.0756C7.6816 7.83279 8.68541 8.29306 9.75327 8.3727C10.8211 8.45233 11.8821 8.14604 12.7432 7.50953Z" stroke="inherit" stroke-width="1.27738" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
@@ -33,23 +34,24 @@
       <div>
         <h1>Diseñador Multimedia</h1>
         <p>Hola, soy Ariel Aguilar y actualmente estudio la carrera de Diseño y Produccion Multimedia con personas increibles.</p>
-        <a href="#">
-          <span>Whatsapp</span>
-          <img src="./assets/mensaje.svg" alt="Icono Mensaje">
+        <a href="https://wa.link/xpw219" target="_blank"> WhatsApp
+          <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M29.3374 14.7287C29.3428 16.7647 28.8671 18.7732 27.9491 20.5906C26.8607 22.7684 25.1874 24.6001 23.1168 25.8806C21.0462 27.1612 18.6599 27.8399 16.2253 27.8409C14.1892 27.8462 12.1807 27.3705 10.3634 26.4525L1.57048 29.3835L4.50144 20.5906C3.58348 18.7732 3.10778 16.7647 3.11309 14.7287C3.11403 12.2941 3.79278 9.90781 5.07331 7.83716C6.35384 5.76652 8.18558 4.09328 10.3634 3.00486C12.1807 2.0869 14.1892 1.61121 16.2253 1.61651H16.9966C20.2119 1.7939 23.2488 3.15104 25.5259 5.42808C27.8029 7.70513 29.1601 10.7421 29.3374 13.9574V14.7287Z" stroke="inherit" stroke-width="3.08522" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
         </a>
       </div>
     </main>
 
     <footer class="footer">
       <div>
-        <a class="icon" href="">
+        <a class="icon" href="https://www.dribble.com/" target="_blank">
           <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M17.5 32.7778C25.9377 32.7778 32.7778 25.9377 32.7778 17.5C32.7778 9.06232 25.9377 2.22223 17.5 2.22223C9.06232 2.22223 2.22223 9.06232 2.22223 17.5C2.22223 25.9377 9.06232 32.7778 17.5 32.7778Z" stroke="inherit" stroke-width="3.05556" stroke-linecap="round" stroke-linejoin="round"/>
             <path d="M12.2445 3.36806C18.9209 12.5806 21.4417 17.7597 24.5126 30.4403M28.3931 6.94306C22.7098 13.5889 14.7348 15.5903 2.60425 15.8806M32.3959 18.7833C27.0487 17.3625 22.2668 17.5306 18.7376 18.7833C14.7959 20.1889 11.0834 23.1528 7.37091 28.4389" stroke="inherit" stroke-width="3.05556" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
         </a>
 
-        <a class="icon" href="">
+        <a class="icon" href="https://www.instagram.com/" target="_blank">
           <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M25.1389 2.22223H9.86112C5.64228 2.22223 2.22223 5.64228 2.22223 9.86112V25.1389C2.22223 29.3577 5.64228 32.7778 9.86112 32.7778H25.1389C29.3577 32.7778 32.7778 29.3577 32.7778 25.1389V9.86112C32.7778 5.64228 29.3577 2.22223 25.1389 2.22223Z" stroke="inherit" stroke-width="3.05556" stroke-linecap="round" stroke-linejoin="round"/>
             <path d="M23.6111 16.5375C23.7996 17.809 23.5825 19.1076 22.9904 20.2485C22.3984 21.3894 21.4617 22.3147 20.3136 22.8926C19.1654 23.4705 17.8643 23.6716 16.5952 23.4674C15.3261 23.2632 14.1538 22.664 13.2449 21.7551C12.336 20.8462 11.7368 19.6738 11.5326 18.4048C11.3284 17.1357 11.5295 15.8346 12.1074 14.6864C12.6853 13.5383 13.6105 12.6016 14.7515 12.0095C15.8924 11.4175 17.191 11.2003 18.4625 11.3889C19.7594 11.5812 20.9602 12.1856 21.8873 13.1127C22.8144 14.0398 23.4188 15.2405 23.6111 16.5375Z" stroke="inherit" stroke-width="3.05556" stroke-linecap="round" stroke-linejoin="round"/>
@@ -57,7 +59,7 @@
           </svg>
         </a>
 
-        <a class="icon" href="">
+        <a class="icon" href="https://www.linkedin.com/" target="_blank">
           <svg width="35" height="33" viewBox="0 0 35 33" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M23.6112 11.1528C26.0423 11.1528 28.3739 12.1186 30.093 13.8376C31.8121 15.5567 32.7779 17.8883 32.7779 20.3195V31.0139H26.6667V20.3195C26.6667 19.5091 26.3448 18.7319 25.7718 18.1589C25.1988 17.5858 24.4216 17.2639 23.6112 17.2639C22.8008 17.2639 22.0236 17.5858 21.4506 18.1589C20.8776 18.7319 20.5556 19.5091 20.5556 20.3195V31.0139H14.4445V20.3195C14.4445 17.8883 15.4103 15.5567 17.1294 13.8376C18.8485 12.1186 21.18 11.1528 23.6112 11.1528Z" stroke="inherit" stroke-width="3.05556" stroke-linecap="round" stroke-linejoin="round"/>
             <path d="M8.3334 12.6806H2.22229V31.0139H8.3334V12.6806Z" stroke="inherit" stroke-width="3.05556" stroke-linecap="round" stroke-linejoin="round"/>
@@ -70,5 +72,10 @@
     </footer>
 
   </div>
+
+  <!-- Ejecutar Javascript -->
+  <script src="./script.js">
+  </script>
+
 </body>
 </html>
