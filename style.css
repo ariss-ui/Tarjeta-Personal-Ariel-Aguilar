@@ -91,12 +91,19 @@ button {
 }
 
 .icon {
+  display: flex;
+  justify-content:center;
+  align-items: center;
   width: 32px;
   height: 32px;
   padding: var(--padding-xs);
   border-radius: 8px;
   background-color: var(--black);
   box-shadow: var(--shadow-icon);
+}
+
+.icon svg {
+  stroke: var(--base);
 }
 
 .main {
@@ -215,6 +222,18 @@ button {
     width: 48px;
     height: 48px;
   }
+
+  .icon:hover {
+    background-color: var(--base);
+  }
+
+  .icon:hover {
+    background-color: var(--base);
+  }
+
+  .icon:hover svg {
+    stroke: var(--shadow);
+    }
 
   .main {
     flex-direction: row;
